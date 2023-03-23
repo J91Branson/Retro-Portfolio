@@ -1,8 +1,10 @@
-// This SCSS file uses BEM Notation, as much as possible
+// Note: this SCSS uses BEM notation whenever reasonable
+// This is where all of the sites reusable variables are 
 :root {
+    // base body styles for standard(dark mode)
     --body-background: #212529;
     --body-text: #fff;
-
+    // base body styles for light mode
     --body-background-light: #fff;
     --body-text-light: #212529;
 }
