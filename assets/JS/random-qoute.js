@@ -9,5 +9,5 @@ function getRandomQuote(array){
     return array[Math.floor(Math.random() * array.length)];
 }
 
-// This adds the qoute to the , qoute area on the homepage
+// This adds the quote to the , quote area on the homepage
 $('p.quoteContainer_quote').append(getRandomQuote(quoteArray));

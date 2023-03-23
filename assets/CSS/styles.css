@@ -1,3 +1,17 @@
+:root {
+  --body-background: #212529;
+  --body-text: #fff;
+  --body-background-light: #fff;
+  --body-text-light: #212529;
+}
 
+.body {
+  background-color: var(--body-background);
+  color: var(--body-text);
+}
+.body--light {
+  background-color: var(--body-background-light);
+  color: var(--body-text-light);
+}
 
 /*# sourceMappingURL=styles.css.map */
