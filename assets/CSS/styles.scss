@@ -16,9 +16,30 @@
 .body {
     background-color: var(--body-background);
     color: var(--body-text);
+    margin: 0 20px;
 
     &--light {
         background-color: var(--body-background-light);
         color: var(--body-text-light);
     }
+
+    .quoteContainer {
+      margin: 20px auto 0;
+
+      &_title{
+        font-size: 25px !important;
+      }
+
+      &_quote{
+        font-size: 18px;
+      }
+    }
+
+
+
+
+
 }
+
+
+
