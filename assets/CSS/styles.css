@@ -17,11 +17,20 @@
 .body .quoteContainer {
   margin: 20px auto 0;
 }
-.body .quoteContainer_title {
+.body .quoteContainer__title {
   font-size: 25px !important;
 }
-.body .quoteContainer_quote {
+.body .quoteContainer__quote {
   font-size: 18px;
+}
+.body .aboutMeSection {
+  margin-right: 0;
+  margin-left: 0;
+}
+.body .aboutMeInfoContainer__img--img {
+  width: 210px;
+  height: auto;
+  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

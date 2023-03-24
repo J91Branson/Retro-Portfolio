@@ -26,13 +26,35 @@
     .quoteContainer {
       margin: 20px auto 0;
 
-      &_title{
+      &__title{
         font-size: 25px !important;
       }
 
-      &_quote{
+      &__quote{
         font-size: 18px;
       }
+    }
+
+    .aboutMeSection{
+        margin-right: 0;
+        margin-left: 0;
+
+        &__title{
+
+        }
+    }
+
+
+    .aboutMeInfoContainer{
+        &__img{
+            &--img{
+                width: 210px;
+                height: auto;
+                margin: auto;
+            }
+        
+        }
+
     }
 
 

@@ -10,4 +10,4 @@ function getRandomQuote(array){
 }
 
 // This adds the quote to the , quote area on the homepage
-$('p.quoteContainer_quote').append(getRandomQuote(quoteArray));
+$('p.quoteContainer__quote').append(getRandomQuote(quoteArray));
