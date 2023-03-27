@@ -39,13 +39,6 @@
         margin-right: 0;
         margin-left: 0;
 
-        &__title{
-
-        }
-    }
-
-
-    .aboutMeInfoContainer{
         &__img{
             &--img{
                 width: 210px;
@@ -55,12 +48,19 @@
         
         }
 
+        &__list{
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 40px;
+        }
+
+        &__listTitle{
+
+        }
+        &__listCopy{
+
+        }
     }
-
-
-
-
-
 }
 
 

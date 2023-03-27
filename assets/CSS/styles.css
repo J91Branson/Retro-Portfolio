@@ -27,10 +27,15 @@
   margin-right: 0;
   margin-left: 0;
 }
-.body .aboutMeInfoContainer__img--img {
+.body .aboutMeSection__img--img {
   width: 210px;
   height: auto;
   margin: auto;
+}
+.body .aboutMeSection__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
