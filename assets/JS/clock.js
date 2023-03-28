@@ -3,7 +3,7 @@ function userTime() {
     let currentHour = today.getHours();
     let currentMinutes = today.getMinutes();
     let currentSeconds = today.getSeconds();
-    let currentTime = currentHour + ":" + currentMinutes + ":" + currentSeconds;
+    
 
     function readableHour() {
         if (currentHour <= 9) {
@@ -29,10 +29,8 @@ function userTime() {
         }
     }
 
-    console.log(readableMinutes());
-    console.log(readableHour());
-    console.log(readableSeconds());
-    $('div.clockData').html(currentTime);
+    let readableTime = readableHour() + ":" + readableMinutes() + ":" + readableSeconds();
+    $('div.clockData').html(readableTime);
 }
 
 setInterval(userTime, 1000);
