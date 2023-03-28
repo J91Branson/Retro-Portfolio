@@ -32,6 +32,10 @@
     padding-left: 10px;
   }
 }
+.body .navbar .clockData {
+  font-size: 16px;
+  color: #A39EE6;
+}
 .body .quoteContainer {
   margin: 20px auto 0;
 }
