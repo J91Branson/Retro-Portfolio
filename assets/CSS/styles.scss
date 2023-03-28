@@ -23,6 +23,25 @@
         color: var(--body-text-light);
     }
 
+
+    .navbar{
+        justify-content: center;
+        margin: 0 -35px 20px;
+
+        @media all and (min-width: 375px){
+            justify-content: space-between;
+            margin: 0 -25px 20px;
+        }
+
+        &-nav{
+            padding-left: 20px;
+
+            @media all and (min-width: 375px){
+                padding-left: 10px;
+            }
+        }
+    }
+
     .quoteContainer {
       margin: 20px auto 0;
 
